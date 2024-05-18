@@ -5,8 +5,4 @@ public class Calculator {
         double result=firstInputValue+secondInputValue;
         return result;
     }
-    public double subtractTwoValue(double firstInputValue, double secondInputValue){
-        double result=firstInputValue-secondInputValue;
-        return result;
-    }
 }
