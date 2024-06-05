@@ -64,4 +64,10 @@ public class CalculatorTest {
         assertFalse(actualValue);
 
     }
+    @Test //First value divided by second value
+    public void DivisionOfTwoValues(){
+        Calculator myCalculator = new Calculator();
+        Float actualValue =myCalculator.divisionOfTwoValues(4.1f,3.1f);
+
+    }
 }
