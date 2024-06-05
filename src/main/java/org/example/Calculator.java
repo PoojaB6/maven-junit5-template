@@ -21,4 +21,14 @@ public class Calculator {
         float result= firstInputValue/secondInputValue;
         return result;
     }
+    //Multiplying floating point numbers
+    public float multiplicationOfTwoValues(float firstInputValue,float secondInputValue){
+        float result=firstInputValue*secondInputValue;
+        return result;
+    }
+    //Implementing squaring a number
+    public double squaringOfOneValue(double firstValueInput){
+        double result=Math.sqrt(firstValueInput);
+        return result;
+    }
 }

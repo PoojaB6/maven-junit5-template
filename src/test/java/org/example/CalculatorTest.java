@@ -65,9 +65,20 @@ public class CalculatorTest {
 
     }
     @Test //First value divided by second value
-    public void DivisionOfTwoValues(){
+    public void divisionOfTwoValues(){
         Calculator myCalculator = new Calculator();
-        Float actualValue =myCalculator.divisionOfTwoValues(4.1f,3.1f);
-
+        Float actualValue =myCalculator.divisionOfTwoValues(5.1f,4.1f);
+       assertEquals(1.2439024f,actualValue);
+    }
+    @Test//First value multiplied by second value
+    public void multiplicationOfTwoValues() {
+        Calculator myCalculator = new Calculator();
+        Float actualValue = myCalculator.multiplicationOfTwoValues(5.1f, 4.1f);
+        assertEquals(20.91f, actualValue);
+    }
+    @Test//Squaring a number
+    public void squaringOfOneValue(){
+        Calculator myCalculator = new Calculator();
+        double valueInput=Math.sqrt(3);
     }
 }
